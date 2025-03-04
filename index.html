@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Uche Godswill | Website</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta name="description" content="Kerge - Resume / CV / vCard Template" />
+    <meta
+      name="keywords"
+      content="vcard, responsive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio"
+    />
+    <meta name="author" content="lmpixels" />
+
+    <!-- Local CSS files (Ensure these paths are correct and the files exist) -->
+    <link
+      rel="stylesheet"
+      href="bootstrap-aid/css/bootstrap.min.css"
+      type="text/css"
+    />
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <!-- External resources (CDNs) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/pe-icon-7-stroke@1.0.0/dist/pe-icon-7-stroke.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
+      type="text/css"
+    />
+  </head>
+
+  <!-- </head> -->
+
+  <body>
+    <div class="loading-screen d-flex flex-column gap-2">
+      <div class="loader"></div>
+      <h3>Loading...</h3>
+    </div>
+
+    <div id="page" class="page one-page-style">
+      <!-- Header -->
+      <header id="site_header" class="header mobile-menu-hide">
+        <div class="header-content clearfix">
+          <div class="my-photo">
+            <img src="profile.jpeg" alt="image" />
+          </div>
+
+          <div class="site-title-block">
+            <div class="site-title">Uche Godswill</div>
+          </div>
+
+          <!-- Navigation -->
+          <div class="site-nav">
+            <!-- Main menu -->
+            <ul id="nav" class="site-main-menu">
+              <li>
+                <a class="pt-trigger" href="#about-me">About Me</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#skills">Skills</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#projects">Projects</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <!-- /Main menu -->
+          </div>
+          <!-- Navigation -->
+
+          <!-- Social Links -->
+          <div class="social-links">
+            <a href="#" ><i class="fab fa-twitter"></i></a>
+            <a href="#" ><i class="fab fa-linkedin"></i></a>
+            <a href="#" ><i class="fab fa-facebook-f"></i></a>
+          </div>
+          <!-- / Social Links -->
+
+          <!-- Copyrights -->
+          <div class="copyrights">© 2025 All rights reserved.</div>
+          <!-- / Copyrights -->
+        </div>
+      </header>
+      <!-- /Header -->
+
+      <!-- Mobile Header -->
+      <div class="mobile-header mobile-visible">
+        <div class="mobile-logo-container align-item-center d-flex">
+          <div class="mobile-header-image">
+            <a href="#">
+              <img src="profile.jpeg" alt="image" />
+            </a>
+          </div>
+          <div class="mobile-site-title"><a href="#">Uche Godswill</a></div>
+        </div>
+
+        <a class="menu-toggle mobile-visible" style="margin-top: -50px">
+          <i
+            class="fa fa-bars"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#off"
+          ></i>
+        </a>
+
+        <div class="offcanvas offcanvas-start" id="off">
+          <div class="offcanvas-header justify-content-end bg-dark text-white">
+            <button class="btn text-white" data-bs-dismiss="offcanvas">
+              <span class="lnr lnr-cross"></span>
+            </button>
+          </div>
+          <div class="offcanvas-body bg-dark">
+            <!-- Navigation -->
+            <div class="site-nav">
+              <!-- Main menu -->
+              <ul id="nav" class="site-main-menu">
+                <li>
+                  <a class="pt-trigger" href="#about-me">About Me</a
+                  ><!-- href value = data-id without # of .pt-page. -->
+                </li>
+                <li>
+                  <a class="pt-trigger" href="#resume">Skills</a>
+                </li>
+                <li>
+                  <a class="pt-trigger" href="#portfolio">Projects</a>
+                </li>
+                <li>
+                  <a class="pt-trigger" href="#contact">Contact</a>
+                </li>
+              </ul>
+              <!-- /Main menu -->
+            </div>
+            <div class="social-links clearfix">
+              <a href="#"  class="p-2"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="p-2"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="#" class="p-2"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </div>
+            <!-- Navigation -->
+          </div>
+        </div>
+      </div>
+      <!-- /Mobile Header -->
+
+      <!-- Arrows Nav -->
+      <div class="lmpixels-scroll-to-top">
+        <a href="#"><i class="lnr lnr-chevron-up"></i></a>
+      </div>
+      <!-- /Arrows Nav -->
+
+      <!-- Main Content -->
+      <div id="main" class="site-main">
+        <!-- Page changer wrapper -->
+        <div class="pt-wrapper">
+          <!-- Subpages -->
+          <div class="subpages">
+            <!-- Home Subpage -->
+            <section class="pt-page" id="about-me">
+              <div class="section-inner start-page-full-width">
+                <div class="start-page-full-width">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                      <div class="inner-content">
+                        <div class="fill-block"></div>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                      <div class="inner-content">
+                        <div class="hp-text-block">
+                          <!-- Text rotation / Subtitle -->
+                          <div class="owl-carousel text-rotation">
+                            <div class="item">
+                              <div class="sp-subtitle mt-md-4">
+                                Frontend-developer
+                              </div>
+                            </div>
+                          </div>
+                          <!-- /Text rotation / Subtitle -->
+
+                          <h2 class="hp-main-title">Uche Godswill</h2>
+                          <p>
+                            I'm a passionate, innovative, and detail-oriented
+                            front-end developer interested in creating and
+                            turning design concepts into functional,
+                            aesthetically pleasing, responsive, and
+                            user-friendly websites.
+                          </p>
+                          <p>
+                            I possess a solid foundation in HTML5, CSS3, and
+                            Bootstrap 5. I am enhancing my skill set by
+                            acquiring proficiency in JavaScript to deliver even
+                            more dynamic and interactive solutions while staying
+                            up-to-date with emerging technologies.
+                          </p>
+
+                          <div class="hp-buttons">
+                            <a href="#contact" target="" class="btn btn-primary"
+                              >CONTACT ME</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="section-inner custom-page-content">
+                <div class="page-content">
+                  <!-- Services Block Title -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="col-inner">
+                        <div class="block-title">
+                          <h3>What I Do</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /Services Block Title -->
+
+                  <!-- Services Block -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="col-inner">
+                        <div class="info-list-w-icon">
+                          <!-- Service Item 1 -->
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-code"></i>
+                            </div>
+                            <div class="ci-text">
+                              <h4>Development</h4>
+                              <p>
+                                Looking for a simple landing page or
+                                feature-rich site? I create digital experiences
+                                that meet both user and business needs.
+                              </p>
+                            </div>
+                          </div>
+                          <!-- /Service Item 1 -->
+
+                          <!-- Service Item 2 -->
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-laptop-phone"></i>
+                            </div>
+                            <div class="ci-text">
+                              <h4>Responsive Web Design(RWD)</h4>
+                              <p>
+                                I implement responsive design principles,
+                                ensuring websites are fully optimised for both
+                                desktop and mobile experiences.
+                              </p>
+                            </div>
+                          </div>
+                          <!-- Service Item 2 -->
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="col-inner">
+                        <div class="info-list-w-icon">
+                          <!-- Service Item 3 -->
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-rocket"></i>
+                            </div>
+                            <div class="ci-text">
+                              <h4>Performance Optimization</h4>
+                              <p>
+                                Optimal website performance by implementing best
+                                practices for speed and efficiency, providing
+                                users a seamless performance.
+                              </p>
+                            </div>
+                          </div>
+                          <!-- Service Item 3 -->
+
+                          <!-- Service Item 4 -->
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-smile"></i>
+                            </div>
+                            <div class="ci-text">
+                              <h4>Result Driven Development</h4>
+                              <p>
+                                Creation of fast, responsive websites that boost
+                                user engagement and drive conversions pertaining
+                                to business goals and vision.
+                              </p>
+                            </div>
+                          </div>
+                          <!-- Service Item 4 -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /Services Block -->
+                </div>
+              </div>
+            </section>
+            <!-- End of Home Subpage -->
+
+            <!-- Skills Subpage -->
+            <section class="pt-page" id="skills">
+              <div class="section-inner custom-page-content">
+                <div class="section-title-block second-style">
+                  <h2 class="section-title">Skills</h2>
+                  <h5 class="section-description">
+                    - Focused on Continuous Learning and Growth
+                  </h5>
+                </div>
+
+                <div class="section-content">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-8">
+                      <div class="col-inner bs-30">
+                        <div class="block-title">
+                          <h3>Mastery</h3>
+                        </div>
+
+                        <div
+                          class="timeline timeline-second-style bs-30 clearfix"
+                        >
+                          <div class="timeline-item clearfix">
+                            <div class="left-part">
+                              <h5 class="item-period">Flexbox/Grid</h5>
+                              <span class="item-company"
+                                >(HTML5/CSS3, Bootstrap5)</span
+                              >
+                            </div>
+                            <div class="divider"></div>
+                            <div class="right-part">
+                              <h4 class="item-title">Responsive Layout</h4>
+                              <p>
+                                I create clean, semantic HTML and use advanced
+                                CSS technique alongside frameworks to build
+                                pixel-perfect responsive designs.
+                              </p>
+                            </div>
+                          </div>
+
+                          <div class="timeline-item clearfix">
+                            <div class="left-part">
+                              <h5 class="item-period">
+                                Front-end Architecture
+                              </h5>
+                              <span class="item-company">Semantics</span>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="right-part">
+                              <h4 class="item-title">Scalable Code</h4>
+                              <p>
+                                I write modular, maintanable, efficient and
+                                scalable frontend code.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="block-title">
+                          <h3>Soft Skills<span></span></h3>
+                        </div>
+
+                        <div class="timeline timeline-second-style clearfix">
+                          <div class="timeline-item clearfix">
+                            <div class="left-part">
+                              <!-- <h5 class="item-period">2016 - Current</h5> -->
+                              <span class="item-company">English</span>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="right-part">
+                              <h4 class="item-title">Communication</h4>
+                              <p>
+                                I prioritize prompt communication with clients
+                                to understand their needs, and provide clear
+                                updates to deliver high-quality, user-focused
+                                solutions.
+                              </p>
+                            </div>
+                          </div>
+
+                          <div class="timeline-item clearfix">
+                            <div class="left-part">
+                              <!-- <h5 class="item-period">2013 - 2016</h5> -->
+                              <span class="item-company">Cognitive</span>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="right-part">
+                              <h4 class="item-title">Attention to detail</h4>
+                              <p>
+                                I pay meticulous attention to detail, ensuring
+                                that every element of the website is implemented
+                                flawlessly, from design to functionality.
+                              </p>
+                            </div>
+                          </div>
+
+                          <div class="timeline-item clearfix">
+                            <div class="left-part">
+                              <!-- <h5 class="item-period">2011 - 2013</h5> -->
+                              <span class="item-company">Productivity</span>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="right-part">
+                              <h4 class="item-title">Time Management</h4>
+                              <p>
+                                I manage time effectively by prioritizing task
+                                and using tools like task boards and time
+                                tracking to ensure projects are delivered on
+                                schedule.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4">
+                      <div class="col-inner">
+                        <div class="block-title">
+                          <h3>Design Skills<span></span></h3>
+                        </div>
+
+                        <div class="skills-info skills-second-style">
+                          <!-- Skill 1 -->
+                          <div class="clearfix">
+                            <h4>Web Design</h4>
+                            <div class="skill-value">40%</div>
+                          </div>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-8"></div>
+                          </div>
+                          <!-- /Skill 1 -->
+
+                          <!-- Skill 2 -->
+                          <div class="clearfix">
+                            <h4>Figma</h4>
+                            <div class="skill-value">40%</div>
+                          </div>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-8"></div>
+                          </div>
+                          <!-- /Skill 2 -->
+                        </div>
+
+                        <div class="block-title ts-10">
+                          <h3>Coding Skills<span></span></h3>
+                        </div>
+
+                        <div class="skills-info skills-second-style">
+                          <!-- Skill 1 -->
+                          <div class="clearfix">
+                            <h4>HTML / CSS</h4>
+                            <div class="skill-value">100%</div>
+                          </div>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-9"></div>
+                          </div>
+                          <!-- /Skill 1 -->
+
+                          <!-- Skill 2 -->
+                          <div class="clearfix">
+                            <h4>Bootstrap5</h4>
+                            <div class="skill-value">95%</div>
+                          </div>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-1"></div>
+                          </div>
+                          <!-- /Skill 2 -->
+
+                          <!-- Skill 3 -->
+                          <div class="clearfix">
+                            <h4>Responsive Web Design(RWD)</h4>
+                            <div class="skill-value">95%</div>
+                          </div>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-1"></div>
+                          </div>
+                          <!-- /Skill 4 -->
+
+                          <!-- Skill 5 -->
+                          <div class="clearfix">
+                            <h4>JavaScript</h4>
+                            <div class="skill-value">55%</div>
+                          </div>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-2"></div>
+                          </div>
+                          <!-- /Skill 5 -->
+
+                          <!-- Skill 6 -->
+                          <div class="clearfix">
+                            <h4>Java</h4>
+                            <div class="skill-value">15%</div>
+                          </div>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-10"></div>
+                          </div>
+                          <!-- /Skill 6 -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="col-inner ts-30">
+                        <a href="#contact" class="btn btn-primary"
+                          >CONTACT ME</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End of Resume Subpage -->
+
+            <!-- Portfolio Subpage -->
+            <section class="pt-page" id="projects">
+              <div class="section-inner custom-page-content">
+                <div class="section-title-block second-style">
+                  <h2 class="section-title">Projects</h2>
+                  <h5 class="section-description">My Works</h5>
+                </div>
+
+                <div class="section-content">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <!-- Portfolio Content -->
+                      <div class="portfolio-content">
+                        <!-- Portfolio Grid -->
+                        <div
+                          class="portfolio-grid three-columns d-flex flex-wrap"
+                        >
+                          <figure
+                            class="item lbaudio"
+                            data-groups='["category_all", "category_soundcloud"]'
+                          >
+                            <div class="portfolio-item-img">
+                              <img
+                                src="pop.png"
+                                alt="SoundCloud Audio"
+                                title=""
+                              />
+                              <a
+                                href="#"
+                                class="lightbox mfp-iframe"
+                                title="View"
+                              ></a>
+                            </div>
+
+                            <i class="fa fa-search"></i>
+                          </figure>
+
+                          <figure
+                            class="item standard"
+                            data-groups='["category_all", "category_media"]'
+                          >
+                            <div class="portfolio-item-img">
+                              <img
+                                src="rgb.png"
+                                alt="Media Project 2"
+                                title=""
+                              />
+                              <a
+                                href="#"
+                                class="ajax-page-load"
+                              ></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                          </figure>
+
+                          <figure
+                            class="item lbvideo"
+                            data-groups='["category_all", "category_vimeo-videos"]'
+                          >
+                            <div class="portfolio-item-img">
+                              <img src="pop.png" alt="Vimeo Video 1" title="" />
+                              <a
+                                href="#"
+                                class="lightbox mfp-iframe"
+                                title="Vimeo Video 1"
+                              ></a>
+                            </div>
+
+                            <i class="fas fa-video"></i>
+                          </figure>
+
+                          <figure
+                            class="item standard"
+                            data-groups='["category_all", "category_media"]'
+                          >
+                            <div class="portfolio-item-img">
+                              <img
+                                src="rgb.png"
+                                alt="Media Project 1"
+                                title=""
+                              />
+                              <a
+                                href="#"
+                                class="ajax-page-load"
+                              ></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                          </figure>
+
+                          <figure
+                            class="item lbimage"
+                            data-groups='["category_all", "category_mockups"]'
+                          >
+                            <div class="portfolio-item-img">
+                              <img
+                                src="pop.png"
+                                alt="Mockup Design 1"
+                                title=""
+                              />
+                              <a
+                                class="lightbox"
+                                title="Mockup Design 1"
+                                href="#"
+                              ></a>
+                            </div>
+
+                            <i class="far fa-image"></i>
+                          </figure>
+
+                          <figure
+                            class="item lbvideo"
+                            data-groups='["category_all", "category_youtube-videos"]'
+                          >
+                            <div class="portfolio-item-img">
+                              <img
+                                src="rgb.png"
+                                alt="YouTube Video 1"
+                                title=""
+                              />
+                              <a
+                                href="#"
+                                class="lightbox mfp-iframe"
+                                title="YouTube Video 1"
+                              ></a>
+                            </div>
+
+                            <i class="fas fa-video"></i>
+                          </figure>
+                        </div>
+                      </div>
+                      <!-- /Portfolio Content -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- /Projects Subpage -->
+
+            <!-- Contact Subpage -->
+            <section class="pt-page" id="contact">
+              <div class="section-inner custom-page-content">
+                <div class="section-title-block second-style">
+                  <h2 class="section-title">Contact</h2>
+                  <h5 class="section-description">Get in Touch</h5>
+                </div>
+
+                <div class="section-content">
+                  <!-- Contact Info -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-3">
+                      <div class="col-inner bs-30">
+                        <div class="lm-info-block gray-default">
+                          <i class="lnr lnr-phone-handset"></i>
+                          <h4>09131509153</h4>
+                          <span class="lm-info-block-value"></span>
+                          <span class="lm-info-block-text"></span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-3">
+                      <div class="col-inner bs-30">
+                        <div class="lm-info-block gray-default">
+                          <i class="lnr lnr-map-marker"></i>
+                          <h4>Nigeria</h4>
+                          <span class="lm-info-block-value"></span>
+                          <span class="lm-info-block-text"></span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-3">
+                      <div class="col-inner bs-30">
+                        <div class="lm-info-block gray-default">
+                          <i class="lnr lnr-envelope"></i>
+                          <h4>
+                            <a href="mailto:auchjee@gmail.com">Mail</a>
+                          </h4>
+                          <span class="lm-info-block-value"></span>
+                          <span class="lm-info-block-text"></span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-3">
+                      <div class="col-inner bs-30">
+                        <div class="lm-info-block gray-default">
+                          <i class="lnr lnr-checkmark-circle"></i>
+                          <h4>Freelance Available</h4>
+                          <span class="lm-info-block-value"></span>
+                          <span class="lm-info-block-text"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /Contact Info -->
+
+                  <!-- Contact form -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-8 offset-sm-1 offset-sm-2">
+                      <div class="col-inner ts-20">
+                        <div class="block-title">
+                          <h3>How Can I Help You?</h3>
+                        </div>
+
+                        <form id="contact_form" class="contact-form">
+                          <div class="messages"></div>
+
+                          <div class="controls two-columns">
+                            <div class="fields clearfix">
+                              <div class="left-column">
+                                <div class="form-group form-group-with-icon">
+                                  <input
+                                    id="form_name"
+                                    type="text"
+                                    name="name"
+                                    class="form-control"
+                                    placeholder="Full Name"
+                                    required="required"
+                                    data-error="Name is required."
+                                  />
+                                  <div class="form-control-border"></div>
+                                  <div class="help-block with-errors"></div>
+                                </div>
+
+                                <div class="form-group form-group-with-icon">
+                                  <input
+                                    id="form_email"
+                                    type="email"
+                                    name="email"
+                                    class="form-control"
+                                    placeholder="Email Address"
+                                    required="required"
+                                    data-error="Valid email is required."
+                                  />
+                                  <div class="form-control-border"></div>
+                                  <div class="help-block with-errors"></div>
+                                </div>
+
+                                <div class="form-group form-group-with-icon">
+                                  <input
+                                    id="form_subject"
+                                    type="text"
+                                    name="subject"
+                                    class="form-control"
+                                    placeholder="Subject"
+                                    required="required"
+                                    data-error="Subject is required."
+                                  />
+                                  <div class="form-control-border"></div>
+                                  <div class="help-block with-errors"></div>
+                                </div>
+                              </div>
+                              <div class="right-column">
+                                <div class="form-group form-group-with-icon">
+                                  <textarea
+                                    id="form_message"
+                                    name="message"
+                                    class="form-control"
+                                    placeholder="Message"
+                                    rows="7"
+                                    required="required"
+                                    data-error="Please, leave me a message."
+                                  ></textarea>
+                                  <div class="form-control-border"></div>
+                                  <div class="help-block with-errors"></div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <input
+                              type="submit"
+                              class="button btn-send"
+                              value="Send message"
+                            />
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /Contact form -->
+                </div>
+              </div>
+            </section>
+            <!-- End Contact Subpage -->
+          </div>
+        </div>
+        <!-- /Page changer wrapper -->
+      </div>
+      <!-- /Main Content -->
+    </div>
+
+    <script src="bootstrap-aid/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
