@@ -1,36 +1,3 @@
-/*
-* Template Name: Kerge - Resume / CV / vCard Template
-* Author: lmpixels
-* Author URL: http://themeforest.net/user/lmpixels
-* Version: 2.4
-*/
-
-/* =============================================================================
-
-1. Fonts
-2. General styles (Buttons, Inputs, Typography)
-3. Page loading animation
-4. Subpages changer
-5. Site header (Panel with logo & navigation)
-6. Site content
-7. Subpages
-  7.1. About Me subpage
-  7.2. Resume subpage
-  7.3. Portfolio subpage
-  7.4. Blog subpage
-  7.5. Contact subpage
-8. Sliders (testimonials & portfolio carousels)
-9. Portfolio Full info page
-10. Single Page Layout (Blog Post page ...)
-11. Media Queries
-12. Updates
-
-============================================================================= */
-
-/* ============================================================================= 
-1. Fonts
-============================================================================= */
-
 /* Google fonts */
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i");
 
@@ -118,7 +85,7 @@ body {
 
 body,
 p {
-  font-family: Poppins, Helvetica, sans-serif;
+  font-family: Poppins, Georgia, 'Times New Roman', Times, serif;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
@@ -1197,13 +1164,13 @@ h3.comment-reply-title:after {
   width: 55%;
 }
 .skill-percentage.skill-8 {
-  width: 40%;
+  width: 53%;
 }
 .skill-percentage.skill-9 {
   width: 100%;
 }
 .skill-percentage.skill-10 {
-  width: 15%;
+  width: 20%;
 }
 /* /Skills */
 
