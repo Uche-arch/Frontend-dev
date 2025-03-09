@@ -612,7 +612,7 @@ blockquote {
 }
 
 .section-inner.start-page-full-width .inner-content .fill-block {
-  background-image: url(profile.jpeg);
+  background-image: url(./img/profile.jpeg);
 }
 .section-inner.start-page-full-width .inner-content .fill-block {
   position: relative;
